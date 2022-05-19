@@ -7,7 +7,7 @@ const Todo = () => {
   const descriptionRef = useRef("");
   const [tasks, setTasks] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/task")
+    fetch("https://agile-stream-09474.herokuapp.com/task")
       .then((res) => res.json())
       .then((data) => setTasks(data));
   }, [tasks]);
@@ -16,7 +16,7 @@ const Todo = () => {
     const name = nameRef.current.value;
     const description = descriptionRef.current.value;
     const data = { name, description };
-    const url = `http://localhost:5000/task`;
+    const url = `https://agile-stream-09474.herokuapp.com/task`;
     fetch(url, {
       method: "POST",
       headers: {
