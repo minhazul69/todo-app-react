@@ -32,7 +32,6 @@ const SignUp = () => {
     const password = passwordRef.current.value;
     await createUserWithEmailAndPassword(email, password);
     await updateProfile({ displayName: name });
-    console.log(name, email, password);
   };
   return (
     <div className="flex items-center justify-center my-10">

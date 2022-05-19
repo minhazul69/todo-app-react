@@ -54,6 +54,7 @@ const Todo = () => {
                 <span class="label-text">Description</span>
               </label>
               <textarea
+                required
                 ref={descriptionRef}
                 className="border p-4"
                 cols="37"

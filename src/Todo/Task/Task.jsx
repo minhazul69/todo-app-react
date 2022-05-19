@@ -45,7 +45,11 @@ const Task = ({ task }) => {
           {description}
         </p>
         <div class="card-actions justify-between mt-5">
-          <button onClick={handleSetStrikethrough} class="btn btn-secondary">
+          <button
+            disabled={strikethrough}
+            onClick={handleSetStrikethrough}
+            class="btn btn-secondary"
+          >
             Complete
           </button>
           <button
