@@ -34,28 +34,28 @@ const Login = () => {
   };
   return (
     <div className="flex items-center justify-center my-10">
-      <div class="card w-96 bg-base-100 shadow-xl">
-        <div class="card-body">
-          <h2 class="text-3xl font-bold text-center">Login</h2>
+      <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card-body">
+          <h2 className="text-3xl font-bold text-center">Login</h2>
           <div>
             <form onSubmit={handleLogin}>
-              <label class="label">
-                <span class="label-text">Email</span>
+              <label className="label">
+                <span className="label-text">Email</span>
               </label>
               <input
                 ref={emailRef}
                 type="email"
                 placeholder="Email"
-                class="input input-bordered input-primary w-full max-w-xs "
+                className="input input-bordered input-primary w-full max-w-xs "
               />
-              <label class="label">
-                <span class="label-text">password</span>
+              <label className="label">
+                <span className="label-text">password</span>
               </label>
               <input
                 ref={passwordRef}
                 type="password"
                 placeholder="Password"
-                class="input input-bordered input-primary w-full max-w-xs"
+                className="input input-bordered input-primary w-full max-w-xs"
               />
               <input
                 className="btn btn-outline btn-block mt-5"

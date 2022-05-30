@@ -32,26 +32,26 @@ const Todo = () => {
       });
   };
   return (
-    <div className="">
+    <div>
       <div className="flex items-center justify-center">
-        <div class="card w-96 bg-base-100 shadow-xl">
-          <div class="card-body">
-            <h2 class="text-center font-bold text-3xl">Task</h2>
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <div className="card-body">
+            <h2 className="text-center font-bold text-3xl">Task</h2>
           </div>
           <div className=" text-center">
             <form onSubmit={handleTaskSubmit}>
-              <label class="label ml-10">
-                <span class="label-text">Name</span>
+              <label className="label ml-10">
+                <span className="label-text">Name</span>
               </label>
               <input
                 ref={nameRef}
                 required
                 type="text"
                 placeholder="Name"
-                class="input input-bordered input-error w-full max-w-xs"
+                className="input input-bordered input-error w-full max-w-xs"
               />
-              <label class="label ml-10">
-                <span class="label-text">Description</span>
+              <label className="label ml-10">
+                <span className="label-text">Description</span>
               </label>
               <textarea
                 required
@@ -70,7 +70,7 @@ const Todo = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-4 lg:px-12 my-8">
+      <div className="grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-2 gap-4 lg:px-12 my-8 ">
         {tasks.map((task) => (
           <Task task={task} key={task._id} />
         ))}

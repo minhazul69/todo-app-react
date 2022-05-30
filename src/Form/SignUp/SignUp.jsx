@@ -35,40 +35,40 @@ const SignUp = () => {
   };
   return (
     <div className="flex items-center justify-center my-10">
-      <div class="card w-96 bg-base-100 shadow-xl">
-        <div class="card-body">
-          <h2 class="text-3xl font-bold text-center">Sign Up</h2>
+      <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card-body">
+          <h2 className="text-3xl font-bold text-center">Sign Up</h2>
           <div>
             <form onSubmit={handleSignUp}>
-              <label class="label">
-                <span class="label-name">Name</span>
+              <label className="label">
+                <span className="label-name">Name</span>
               </label>
               <input
                 ref={nameRef}
                 type="text"
                 placeholder="Name"
-                class="input input-bordered input-primary w-full max-w-xs "
+                className="input input-bordered input-primary w-full max-w-xs "
                 required
               />
-              <label class="label">
-                <span class="label-email">Email</span>
+              <label className="label">
+                <span className="label-email">Email</span>
               </label>
               <input
                 ref={emailRef}
                 type="email"
                 placeholder="Email"
-                class="input input-bordered input-primary w-full max-w-xs "
+                className="input input-bordered input-primary w-full max-w-xs "
                 required
               />
-              <label class="label">
-                <span class="label-password">password</span>
+              <label className="label">
+                <span className="label-password">password</span>
               </label>
               <input
                 ref={passwordRef}
                 type="password"
                 placeholder="Password"
                 required
-                class="input input-bordered input-primary w-full max-w-xs"
+                className="input input-bordered input-primary w-full max-w-xs"
               />
               <input
                 className="btn btn-outline btn-block mt-5"

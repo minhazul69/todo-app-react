@@ -5,46 +5,34 @@ const Home = () => {
     <div>
       <h1>This Is home section</h1>
 
-      <div class="carousel carousel-end rounded-box">
-        <div class="carousel-item">
+      <div className="carousel carousel-end rounded-box">
+        <div className="carousel-item">
           <img
-            src="https://api.lorem.space/image/drink?w=400&h=300&hash=8B7BCDC2"
+            src="https://thumbs.dreamstime.com/z/assorted-american-food-top-view-109748438.jpg"
             alt="Drink"
           />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            src="https://api.lorem.space/image/drink?w=400&h=300&hash=500B67FB"
+            src="https://thumbs.dreamstime.com/z/different-burgers-snacks-wine-wooden-table-top-view-outdoors-food-concept-73312703.jpg"
             alt="Drink"
           />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            src="https://api.lorem.space/image/drink?w=400&h=300&hash=A89D0DE6"
+            src="https://thumbs.dreamstime.com/z/italian-pasta-tomato-sauce-snacks-wine-wooden-table-red-white-top-view-81366105.jpg"
             alt="Drink"
           />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            src="https://api.lorem.space/image/drink?w=400&h=300&hash=225E6693"
+            src="https://thumbs.dreamstime.com/z/different-burgers-snacks-wine-wooden-table-top-view-outdoors-food-concept-73312703.jpg"
             alt="Drink"
           />
         </div>
-        <div class="carousel-item">
+        <div className="carousel-item">
           <img
-            src="https://api.lorem.space/image/drink?w=400&h=300&hash=9D9539E7"
-            alt="Drink"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://api.lorem.space/image/drink?w=400&h=300&hash=BDC01094"
-            alt="Drink"
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://api.lorem.space/image/drink?w=400&h=300&hash=7F5AE56A"
+            src="https://thumbs.dreamstime.com/z/many-different-burgers-ingredients-black-background-178289490.jpg"
             alt="Drink"
           />
         </div>

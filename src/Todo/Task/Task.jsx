@@ -25,14 +25,14 @@ const Task = ({ task }) => {
     }
   };
   return (
-    <div class="card w-96 bg-base-100 shadow-xl">
-      <div class="card-body">
+    <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card-body">
         <h2
           style={{
             textDecoration: strikethrough && "line-through",
             color: strikethrough ? "red" : "black",
           }}
-          class="card-title"
+          className="card-title"
         >
           {name}
         </h2>
@@ -44,17 +44,17 @@ const Task = ({ task }) => {
         >
           {description}
         </p>
-        <div class="card-actions justify-between mt-5">
+        <div className="card-actions justify-between mt-5">
           <button
             disabled={strikethrough}
             onClick={handleSetStrikethrough}
-            class="btn btn-secondary"
+            className="btn btn-secondary"
           >
             Complete
           </button>
           <button
             onClick={() => handleDeleteService(task._id)}
-            class="btn btn-primary"
+            className="btn btn-primary"
           >
             Delete
           </button>
