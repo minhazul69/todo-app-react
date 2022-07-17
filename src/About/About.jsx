@@ -7,7 +7,7 @@ const About = () => {
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row">
           <img
-            src="https://thumbs.dreamstime.com/z/hand-writing-thank-you-many-languages-chalkboard-84667902.jpg"
+            src="https://i.ibb.co/kmf9wW3/software-developer-6521720-480.jpg"
             className="w-3/5"
           />
           <div>
